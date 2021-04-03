@@ -1,5 +1,5 @@
 import React from 'react';
-import { createNavigatorFactory, createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import AdmHome from  '../screens/AdmHome';
 import AdmConfig from  '../screens/AdmConfig';
 

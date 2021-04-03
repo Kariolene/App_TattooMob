@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './AdmHome_Style';
+import { Container } from './admhome_style';
 import { View, Text } from 'react-native';
 
 

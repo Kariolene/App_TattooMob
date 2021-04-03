@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './AdmConfig_Style';
+import { Container } from './admconfig_style';
 import { View, Text } from 'react-native';
 
 
