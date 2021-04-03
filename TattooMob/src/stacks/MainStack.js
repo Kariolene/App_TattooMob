@@ -1,17 +1,15 @@
-import * as React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import AdmHome   from  '../screens/AdmHome/AdmHome';
-import AdmConfig from  '../screens/AdmConfig/AdmConfig';
+import React from 'react';
+import AdmHome from '../screens/AdmHome';
 
 const Stack = createStackNavigator();
 
-export default function MainStack() {
+
+export default () => {
   return (
     <Stack.Navigator>
         <Stack.Screen name="AdmHome" component={AdmHome}/>
-        <Stack.Screen name="AdmConfig" component={AdmConfig}/>
+
     </Stack.Navigator>
   );
 }
-
-

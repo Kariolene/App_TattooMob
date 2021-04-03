@@ -1,17 +1,16 @@
 
-/*import * as React from 'react';
-import { View, Text } from 'react-native';
+import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MainStack from './src/stacks/MainStack';
 
-export default function App() {
+export default () => {
   return (
      <NavigationContainer>
        <MainStack/>
      </NavigationContainer>
   );
-}*/
-
+}/**/
+/*
 
 import * as React from 'react';
 import { View, Text, Button, Animated } from 'react-native';
@@ -51,6 +50,6 @@ function App() {
 }
 
 export default App;
-
+*/
 
 
